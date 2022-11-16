@@ -1,0 +1,65 @@
+body {
+    background: #C5E4E7;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodycontainer {
+    
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    width:400px ;
+    height:100%;
+    border-radius: 5%;
+    padding: 20px 5px 10px 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+.tipContainer{
+        
+    margin-top: 4px;
+}
+.tipButton{
+    width: 50px;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7%;
+    font-size: 10px;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+
+    font-weight: bold;
+    color:white;
+    background-color: #00474B;
+}
+.tipButton:hover{
+    opacity: 0.7;
+}
+.tipButton:focus{
+    background-color: #26C2AE;
+}
+input{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 30%;
+    color:#26C2AE;
+    background-color: #e0e2e3;
+    
+} 
+.totalBillCard{
+   height: 100%;
+    
+}
